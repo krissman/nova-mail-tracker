@@ -2,7 +2,7 @@
 
 A tool which adds a Laravel Nova resource on top of `jdavidbakr/mail-tracker` to list & view sent emails.
 
-Actually this is a fork of `stonkeep/nova-mail-tracker` package which unexpectedly disappeared in Sep 2022.
+Actually this is a fork of `stonkeep/nova-mail-tracker` package which unexpectedly disappeared from GitHub in Sep 2022.
 
 ### Install
 
