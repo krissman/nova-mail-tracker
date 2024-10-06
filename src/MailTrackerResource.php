@@ -1,6 +1,6 @@
 <?php
 
-namespace Intelliants\NovaMailTracker;
+namespace Krissman\NovaMailTracker;
 
 use jdavidbakr\MailTracker\Model\SentEmail;
 use Illuminate\Http\Request;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Intelliants\NovaMailTracker;
+namespace Krissman\NovaMailTracker;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Tool;

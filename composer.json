@@ -1,5 +1,5 @@
 {
-    "name": "intelliants/nova-mail-tracker",
+    "name": "krissman/nova-mail-tracker",
     "description": "Laravel Nova tool to list & view sent emails",
     "keywords": [
         "laravel",
@@ -13,13 +13,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Intelliants\\NovaMailTracker\\": "src/"
+            "Krissman\\NovaMailTracker\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Intelliants\\NovaMailTracker\\ToolServiceProvider"
+                "Krissman\\NovaMailTracker\\ToolServiceProvider"
             ]
         }
     },
