@@ -1,14 +1,12 @@
-# Nova Mail Tracker
+# A Laravel Mail Tracker wrapper for Nova 
 
-A tool which adds a Laravel Nova resource on top of `jdavidbakr/mail-tracker` to list & view sent emails.
-
-Actually this is a fork of `stonkeep/nova-mail-tracker` package which unexpectedly disappeared from GitHub in Sep 2022.
+Laravel Mail Tracker [docs](https://github.com/jdavidbakr/mail-tracker)
 
 ### Install
 
 Run this command into your nova project:
 
-`composer require intelliants/nova-mail-tracker`
+`composer require krissman/nova-mail-tracker`
 
 ### Add it to your NovaServiceProvider:
 
@@ -21,7 +19,7 @@ public function tools()
 {
     return [
         // ...
-        Intelliants\NovaMailTracker\NovaMailTrackerTool::make(),
+        Krissman\NovaMailTracker\NovaMailTracker::make(),
     ];
 }
 ```
